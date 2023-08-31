@@ -1,0 +1,25 @@
+h2{
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+
+  #tipo{
+    margin-bottom: 3%;
+  }
+
+  .lista{
+    margin-top: 2%;
+    list-style: none;
+  }
+
+  img{
+    margin-right: 2%;
+  }
+
+  #FAA{
+    width: 8%;
+  }
+
+p{
+    text-align: justify;
+}

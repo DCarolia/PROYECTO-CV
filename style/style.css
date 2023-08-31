@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.background{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.logoAP{
+    margin-top: 2%;
+    width: 150px;
+    display: flex;
+    margin-left: 5%;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(7, 66, 66);
+    padding-right: 5%;
+    position: static;
+ }
+
+ #redes{
+    display: flex;
+    font-size:larger;
+    align-self: center;
+ }
+
+a{
+    padding-left: 4%;
+    color: white;
+    text-decoration: none;
+}
+
+#mas{
+    float: right;
+    font-size: larger;
+    border: none;
+    background-color:rgb(240, 243, 247);
+ }
+ 
+ #em{
+     color: black;
+     font-size: larger;
+ }
+ 
+ @media (max-width: 915px){
+    #redes{
+        padding-right: 4%;
+    }
+
+    .logoAP{
+        width: 180px;
+        padding-left: 5%;
+    }
+ }
+
+@media (max-width: 575px){
+    #redes{
+        font-size: 85%;
+        padding-right: 5%;
+    }
+
+    .logoAP{
+        width: 130px;
+        margin-left: -3%;
+    }
+}
+    
+    
+

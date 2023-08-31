@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.logoAP{
+    margin-top: 2%;
+    width: 130px;
+    display: flex;
+    margin-left: 6%;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(7, 66, 66);
+    padding-right: 5%;
+    position: static;
+ }
+
+ #redes{
+    display: flex;
+    font-size:larger;
+    align-self: center;
+ }
+
+a{
+    padding-left: 4%;
+    color: white;
+    text-decoration: none;
+}
+
+.background{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    padding-top: 10%;
+    padding-bottom: 14%;
+    margin-top: 0.5%;
+}
+
+.container-fluid{
+    border: groove rgb(131, 236, 236);
+    width: 75%;
+    border-radius: 3%;
+    margin-left: 10%;
+    padding: 2%;
+    background-color:rgb(240, 243, 247);
+    box-shadow: 7px 7px 35px 5px;
+}
+
+#back{
+    margin-left: 45%;
+}
+
+ul{
+    padding: 4%;
+}
+
+li{
+    margin-bottom: 1%;
+}
+
+#btn{
+    background-color:#c777b9;
+}
+
+@media (max-width: 915px){
+    #redes{
+        padding-right: 3%;
+    }
+
+    .background{
+        padding-top: 45%;
+        padding-bottom: 45%;
+    }
+
+    ul{
+        padding: 6%;
+    }
+    .row{
+        padding: 1%;
+    }
+
+    .logoAP{
+        width: 160px;
+        padding-left: 4%;
+    }
+}
+
+@media (max-width: 575px){
+    #redes{
+        font-size: 88%;
+        padding-right: 3%;
+    }
+
+    .background{
+        padding-top: 68%;
+        padding-bottom: 68%;
+    }
+
+    ul{
+        padding: 7%;
+    }
+
+    .row{
+        padding: 1%;
+    }
+}
